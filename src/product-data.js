@@ -54,6 +54,31 @@ const products = [
     description:
       "Do you have what it takes to be an effective leader in the next ten years? Unfortunately, most individuals and organizations can’t answer this question because they don’t even know what leadership will look like in the future. Until now.",
   },
+
+  {
+    id: 6,
+    name: "Botas",
+    productType: "Book - business",
+    price: 9,
+    rating: 4,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Boots_3_by_wax115.jpg",
+    description:
+      "Esta es la bota que utilizo Putin en la Guerra con ucrania",
+  },
+
+  {
+    id: 1,
+    name: "The Future Leader",
+    productType: "Book - business",
+    price: 9,
+    rating: 4,
+    image:
+      "https://thefutureorganization.com/wp-content/uploads/2019/10/The_Future_Leader_Book.png",
+    description:
+      "Do you have what it takes to be an effective leader in the next ten years? Unfortunately, most individuals and organizations can’t answer this question because they don’t even know what leadership will look like in the future. Until now.",
+  },
+
 ];
 
 export default products;
