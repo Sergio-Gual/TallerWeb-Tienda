@@ -1,59 +1,192 @@
 const products = [
   {
     id: 1,
-    name: "Shoes",
-    productType: "Running shoes",
+    name: "Zapatilla Nike",
+    productType: "Zapatilla para correr",
     price: 50,
     rating: 4,
     image:
       "https://s2.r29static.com/bin/entry/ebd/0,675,2000,1050/x,80/1929471/image.jpg",
     description:
-      "Nike Air is our iconic innovation that uses pressurized air in a durable, flexible membrane to provide lightweight cushioning. The air compresses on impact and then immediately returns to its original shape and volume, ready for the next impact. We debuted Nike Air in 1979, and we've been continuously evolving and improving it ever since.",
+      "Con estas zapatillas Nike Air vas a poder correr como Usain Bolt",
   },
   {
     id: 2,
     name: "Macbook",
-    productType: "Apple Mcbook",
+    productType: "Laptop para que programes más rápido que el profesor",
     price: 1000,
     rating: 4,
     image:
-      "https://cnet3.cbsistatic.com/img/yjrw7VgWV7a95AvK8Ym0Np4bFXY=/1200x675/2017/06/27/13484418-bfd9-41e2-8f2d-9b4afb072da8/apple-macbook-pro-15-inch-2017-14.jpg",
+      "https://www.apple.com/v/macbook-pro-14-and-16/b/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png",
     description:
-      "Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage.",
+      "Esta Apple MacBook Pro cuenta con 64GB RAM y 4TB de SSD",
   },
   {
     id: 3,
-    name: "Coffee Maker",
-    productType: "L14dc19 Black Filter Coffee Machine",
+    name: "Cafetera",
+    productType: "Para que tomes tu lonchecito en la noche",
     price: 28,
     rating: 3,
     image:
       "https://brain-images-ssl.cdn.dixons.com/4/9/10189494/u_10189494.jpg",
     description:
-      "Coffeemakers or coffee machines are cooking appliances used to brew coffee. While there are many different types of coffeemakers using several different brewing principles, in the most common devices, coffee grounds are placed into a paper or metal filter inside a funnel, which is set over a glass or ceramic coffee pot, a cooking pot in the kettle family.",
+      "Esta maquina te va a preparar tu cafe muy rapido para toda la familia.",
   },
   {
     id: 4,
-    name: "Sweater",
-    productType: "Xbox Christmas Sweater",
+    name: "Chompa",
+    productType: "Chompa para el Frio",
     price: 42,
     rating: 5,
     image:
       "https://merchoidcdn-pveiw4zwh96ot9z.netdna-ssl.com/media/catalog/product/cache/65c63282a2b3bd0da0ec5b004bcde549/x/b/xbox-jumper.jpg",
     description:
-      "PC or Mac. Pepsi or Coke. Xbox or…that other console. It isn’t always easy to show your allegiances, especially when you’re bundled up for the holidays, but this jumper will let you make it abundantly clear what type of games you want to find under your tree.",
+      "Con esta Chompa ya no vas a tener frio ni en ticlio y podras jugar con tu XBOX.",
   },
   {
     id: 5,
-    name: "The Future Leader",
-    productType: "Book - business",
+    name: "Librito",
+    productType: "Librito de tu futuro",
     price: 9,
     rating: 4,
     image:
       "https://thefutureorganization.com/wp-content/uploads/2019/10/The_Future_Leader_Book.png",
     description:
-      "Do you have what it takes to be an effective leader in the next ten years? Unfortunately, most individuals and organizations can’t answer this question because they don’t even know what leadership will look like in the future. Until now.",
+      "Comprate un libro para que no vagees y te entretengas",
   },
+
+  {
+    id: 6,
+    name: "Botas",
+    productType: "Botas todo terreno",
+    price: 23,
+    rating: 4,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Boots_3_by_wax115.jpg",
+    description:
+      "Esta es la bota que utilizo Putin en la Guerra con ucrania",
+  },
+
+  {
+    id: 7,
+    name: "Monitor Huawei",
+    productType: "Monitor para tus partidas",
+    price: 399,
+    rating: 4,
+    image:
+      "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/monitors/mateview-gt/imgs/protection/huawei-mateview-gt-eyecare.jpg",
+    description:
+      "Con este monitor vas a ganar todas tus partidas.",
+  },
+
+  {
+    id: 8,
+    name: "Bolso",
+    productType: "Bolso lleva todo ",
+    price: 14,
+    rating: 4,
+    image:
+      "https://m.media-amazon.com/images/I/61TSqB-+QhL._AC_UX385_.jpg",
+    description:
+      "Con este bolso vas a poder llevar de todo",
+  },
+
+  {
+    id: 9,
+    name: "Water One Piece",
+    productType: "Water jala todo",
+    price: 140,
+    rating: 4,
+    image:
+      "https://sodimac.scene7.com/is/image/SodimacPeru/1718274",
+    description:
+      "Con este water puedes ir 10 veces al baño",
+  },
+
+  {
+    id: 10,
+    name: "Mochila todo terreno",
+    productType: "Mochila para el retorno de las clases Prescenciales",
+    price: 23,
+    rating: 4,
+    image:
+      "https://d1toopoytyi25q.cloudfront.net/media/catalog/product/0/9/090603477338_2.jpg",
+    description:
+      "La mochila perfecta para el regreso de las clases prescenciales",
+  },
+
+  {
+    id: 11,
+    name: "Cuaderno Gual",
+    productType: "Cuaderno para las clases prescenciales",
+    price: 5,
+    rating: 4,
+    image:
+      "https://st.depositphotos.com/1875497/3781/i/600/depositphotos_37810929-stock-photo-books-on-white.jpg",
+    description:
+      "En este cuaderno podras dibujar",
+  },
+
+  {
+    id: 12,
+    name: "Lapicero",
+    productType: "Lapicero para que le escribas a tu amor",
+    price: 3,
+    rating: 4,
+    image:
+      "https://wongfood.vteximg.com.br/arquivos/ids/275025-750-750/Boligrafo-Pilot-X4-Azul-Negro-Rojo-y-Verde-1-152238.jpg?v=636852564342470000",
+    description:
+      "Con este lapicero le podras escribir a tu crush",
+  },
+
+  {
+    id: 13,
+    name: "Reloj",
+    productType: "Reloj para que llegues temprano",
+    price: 15,
+    rating: 4,
+    image:
+      "https://i.linio.com/p/3057f97c88f93bcd68992fbf185d8997-product.jpg",
+    description:
+      "Este reloj para que midas tu tiempo",
+  },
+
+  {
+    id: 14,
+    name: "Escritorio",
+    productType: "Escritorio para tu PC GAMER",
+    price: 79,
+    rating: 4,
+    image:
+      "https://crisostomo.vtexassets.com/arquivos/ids/155590-800-450?v=637741819357370000&width=800&height=450&aspect=true",
+    description:
+      "Con este escritorio podras hacer de todo",
+  },
+
+  {
+    id: 15,
+    name: "Silla Gamer",
+    productType: "Para que puedas hacer lo que quieras",
+    price: 299,
+    rating: 4,
+    image:
+      "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/monitors/mateview-gt/imgs/protection/huawei-mateview-gt-eyecare.jpg",
+    description:
+      "Con este monitor vas a ganar todas tus partidas.",
+  },
+
+  {
+    id: 16,
+    name: "Billetera Gamer ",
+    productType: "Billetera para que guardes tus billetes gamer",
+    price: 24,
+    rating: 4,
+    image:
+      "https://101tiendas.com/wp-content/uploads/2020/11/60145311_672627479857494_4222290840124391424_o.jpg",
+    description:
+      "Con esta billetera solo te robaran Gamer",
+  },
+
 ];
 
 export default products;
