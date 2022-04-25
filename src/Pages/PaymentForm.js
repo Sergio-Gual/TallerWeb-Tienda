@@ -64,7 +64,8 @@ const CheckoutForm = ({ backStep, nextStep }) => {
       const { id } = paymentMethod;
       try {
         const { data } = await axios.post(
-          "http://localhost:3001/api/checkout",
+          // "http://localhost:3001/api/checkout",
+          "https://examfinal-taller-back.herokuapp.com/api/checkout",
           {
             id,
             amount: getBasketTotal(basket) * 100,
