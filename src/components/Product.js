@@ -76,7 +76,7 @@ export default function Product({
           </Typography>
         }
         title={name}
-        subheader='in Stock'
+        subheader='En Stock amigo FISINO'
       />
       <CardMedia className={classes.media} image={image} title={name} />
       <CardContent>

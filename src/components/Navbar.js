@@ -56,9 +56,9 @@ const Navbar = () => {
             <Link to='/'>
               <IconButton>
                 <img
-                  src={logo}
+                  src="https://s3.amazonaws.com/orion-eat-app-files/orioneat-prod%2FwQuduccfCyAoqssBe-logo-Tambo.png"
                   alt='Commerce.js'
-                  height='25px'
+                  height='50px'
                   className={classes.image}
                 />
               </IconButton>
@@ -66,12 +66,12 @@ const Navbar = () => {
 
             <div className={classes.grow} />
             <Typography variant='h6' color='textPrimary' component='p'>
-              Hello {user ? user.email : "Guest"}
+              Hola {user ? user.email : "amigo ;)"}
             </Typography>
             <div className={classes.button}>
               <Link to={!user && "/signin"}>
                 <Button onClick={handleAuth} variant='outlined'>
-                  <strong>{user ? "Sign Out" : "Sign In"}</strong>
+                  <strong>{user ? "Cerrar Sesion" : "Iniciar Sesion"}</strong>
                 </Button>
               </Link>
 

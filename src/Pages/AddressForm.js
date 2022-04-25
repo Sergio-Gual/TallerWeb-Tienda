@@ -15,7 +15,7 @@ export default function AddressForm({ nextStep }) {
   return (
     <React.Fragment>
       <Typography variant='h6' gutterBottom>
-        Shipping address
+        Direccion del envio
       </Typography>
       <FormProvider {...methods}>
         <form
@@ -28,12 +28,12 @@ export default function AddressForm({ nextStep }) {
           })}
         >
           <Grid container spacing={3}>
-            <AddressInput required name='firstName' label='First name' />
-            <AddressInput required name='lastName' label='Last name' />
-            <AddressInput required name='address1' label='Adress' />
-            <AddressInput required name='email' label='Email address' />
-            <AddressInput required name='city' label='City' />
-            <AddressInput required name='postCode' label='Post Code' />
+            <AddressInput required name='firstName' label='Nombres' />
+            <AddressInput required name='lastName' label='Apellidos' />
+            <AddressInput required name='address1' label='Direccion de la Ubicacion' />
+            <AddressInput required name='email' label='Correo Electronico' />
+            <AddressInput required name='city' label='Ciudad' />
+            {/* <AddressInput required name='postCode' label='Post Code' /> */}
           </Grid>
           <div
             style={{
@@ -43,10 +43,10 @@ export default function AddressForm({ nextStep }) {
             }}
           >
             <Button component={Link} to='/checkout-page' variant='outlined'>
-              Back to the Checkout Page
+              Volver a la página de compras
             </Button>
             <Button type='submit' variant='contained' color='primary'>
-              Next
+              Siguiente
             </Button>
           </div>
         </form>

@@ -8,12 +8,12 @@ const Review = () => {
   return (
     <>
       <Typography variant='h6' gutterBottom>
-        Order summary
+        Resumen de Pedido
       </Typography>
       <List disablePadding>
         {basket?.map((product) => (
           <ListItem style={{ padding: "10px 0" }} key={product.name}>
-            <ListItemText primary={product.name} secondary={`Qty : ${1}`} />
+            <ListItemText primary={product.name} secondary={`Cantidad : ${1}`} />
             <Typography variant='body2'>
               {accounting.formatMoney(product.price, "€")}
             </Typography>
