@@ -1,19 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyDCKZ5Sp7JeIpI_KxlJ0hyxVoDqxi5y86Q",
-  // authDomain: "test-rl4.firebaseapp.com",
-  // projectId: "test-rl4",
-  // storageBucket: "test-rl4.appspot.com",
-  // messagingSenderId: "928359458039",
-  // appId: "1:928359458039:web:0d4b0114688787e97b5ff2",
-
-  apiKey: "AIzaSyBmuWW2Qn7ZpCzwwKX5PNWtTDEoQ1u7J9s",
-  authDomain: "taller-web-2022-verano.firebaseapp.com",
-  projectId: "taller-web-2022-verano",
-  storageBucket: "taller-web-2022-verano.appspot.com",
-  messagingSenderId: "544726746862",
-  appId: "1:544726746862:web:55098842c135dc95c8d5ff"
+  apiKey: "AIzaSyAX4zOhlraLiuKlODcwQM3rmCubqLBrXhg",
+  authDomain: "tienda-5c11f.firebaseapp.com",
+  projectId: "tienda-5c11f",
+  storageBucket: "tienda-5c11f.appspot.com",
+  messagingSenderId: "885539947055",
+  appId: "1:885539947055:web:767e364bb2000331a3fcda"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
